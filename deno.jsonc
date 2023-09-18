@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "test": "deno test **/*.test.ts"
+  },
+  "imports": {
+    "iconv-lite": "https://deno.land/x/iconv_lite@v1.0.2/mod.ts",
+    "path": "https://deno.land/std@0.201.0/path/mod.ts",
+    "fs": "https://deno.land/std@0.201.0/fs/mod.ts",
+    "assert": "https://deno.land/std@0.201.0/assert/mod.ts",
+    "io": "https://deno.land/std@0.201.0/io/mod.ts"
+  }
+}
